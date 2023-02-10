@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MixData>
+  <mixerTree mixerDeviceType="2" mixerSN="0071220100230" mixerCount="5" fader1LEDColour="-1296579"
+             fader2LEDColour="-1296579" fader3LEDColour="-1296579" fader4LEDColour="-1296579"
+             mixerButton5Colour="-1296579" faderPageLeftLEDColour="-1296579"
+             faderPageRightLEDColour="-1296579" activeFader="0">
+    <mixer0 mixerName="Mic" mixerLockStatus="1" mixerFadersLinked="1" mixerHPLevel="100.0"
+            mixerBroadcastLevel="100.0" mixerHPMute="1" mixerBroadcastMute="0"
+            mixerChatMute="0" mixerVodTrackMute="0" mixerPlaceInOrder="0"
+            mixerSourceCount="0" faderColourBarColour="-131328" bartonKnobType="1"
+            knobMuteMode="42" muteMode="45" mixerVolumeRatio="1.0" knobMuteState="0"
+            buttonMuteState="0" mixCreateRoutedDeviceCount="1" mixCreateRoutedDevice0="Microphone (BEACN Mic)"/>
+    <mixer1 mixerName="Game" mixerLockStatus="0" mixerFadersLinked="0" mixerHPLevel="70.0"
+            mixerBroadcastLevel="55.0" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="1" mixerVodTrackMute="0" mixerPlaceInOrder="1"
+            mixerSourceCount="0" faderColourBarColour="-15793921" bartonKnobType="5"
+            knobMuteMode="42" muteMode="42" mixerVolumeRatio="1.0" knobMuteState="0"
+            buttonMuteState="0" mixCreateRoutedDeviceCount="0"/>
+    <mixer2 mixerName="Chat" mixerLockStatus="0" mixerFadersLinked="0" mixerHPLevel="70.0"
+            mixerBroadcastLevel="55.0" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="1" mixerVodTrackMute="0" mixerPlaceInOrder="2"
+            mixerSourceCount="0" faderColourBarColour="-16713217" bartonKnobType="3"
+            knobMuteMode="42" muteMode="42" mixerVolumeRatio="1.0" knobMuteState="0"
+            buttonMuteState="0" mixCreateRoutedDeviceCount="0"/>
+    <mixer3 mixerName="Music" mixerLockStatus="0" mixerFadersLinked="0" mixerHPLevel="50.0"
+            mixerBroadcastLevel="55.59384155273438" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="1" mixerVodTrackMute="1" mixerPlaceInOrder="3"
+            mixerSourceCount="0" faderColourBarColour="-4914945" bartonKnobType="4"
+            knobMuteMode="42" muteMode="42" mixerVolumeRatio="1.0" knobMuteState="0"
+            buttonMuteState="0" mixCreateRoutedDeviceCount="0"/>
+    <listeningDeviceTree topListeningDevice="Headphones (BEACN Mic)" bottomListeningDevice="Headphones (Realtek USB Audio)"
+                         topListeningDeviceSelected="1" topListeningDevicevol="87" bottomListeningDeviceVol="0"/>
+    <broadcastOutputTree broadcastOutputDeviceVolume="50" broadcastMixVolume="100" broadcastOutputDeviceName="Audience Mix"/>
+    <routingTableTreePersonalMix routeMic="0" routeMusic="1" routeChat="1" routeGame="1" routeBrowser="1"
+                                 routeSystem="1" routeAux1="1" routeAux2="1" chatMicRoutedTo=""/>
+    <routingTableTreeAudienceMix routeMic="1" routeMusic="1" routeChat="1" routeGame="1" routeBrowser="1"
+                                 routeSystem="1" routeAux1="1" routeAux2="1" chatMicRoutedTo=""/>
+    <routingTableTreeChatMix routeMic="1" routeMusic="0" routeChat="0" routeGame="0" routeBrowser="0"
+                             routeSystem="0" routeAux1="0" routeAux2="0" chatMicRoutedTo=""/>
+    <mixer4 mixerName="System" mixerLockStatus="0" mixerFadersLinked="0"
+            mixerHPLevel="80.0" mixerBroadcastLevel="60.03077697753906" mixerHPMute="0"
+            mixerBroadcastMute="0" mixerChatMute="1" mixerVodTrackMute="0"
+            mixerPlaceInOrder="4" mixerSourceCount="0" faderColourBarColour="-16711821"
+            bartonKnobType="7" knobMuteMode="42" muteMode="42" mixerVolumeRatio="1.0"
+            knobMuteState="0" buttonMuteState="0" mixCreateRoutedDeviceCount="0"/>
+    <mixer5 mixerName="Browser" mixerLockStatus="0" mixerFadersLinked="1"
+            mixerHPLevel="55.0" mixerBroadcastLevel="55.0" mixerHPMute="0"
+            mixerBroadcastMute="0" mixerChatMute="1" mixerPlaceInOrder="5"
+            mixerSourceCount="0" faderColourBarColour="-16713217" bartonKnobType="6"
+            muteMode="42" mixerVolumeRatio="1.0" mixCreateRoutedDeviceCount="0"/>
+    <routingTableTreeVODMix routeMic="1" routeMusic="0" routeChat="1" routeGame="1" routeBrowser="1"
+                            routeSystem="1" routeAux1="1" routeAux2="1" chatMicRoutedTo=""/>
+  </mixerTree>
+  <mixerOSDTree/>
+</MixData>

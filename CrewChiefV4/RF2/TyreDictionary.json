@@ -1,0 +1,102 @@
+{
+  "Hypersoft": [
+    "hypersoft",
+    "c1",
+    "ultrasoft",
+    "supersoft",
+    "soft",
+    "alternates",
+    "s310",
+    "slick",
+    "dry",
+    "allweather",
+    "medium"
+  ],
+  "Ultrasoft": [
+    "ultrasoft",
+    "c1",
+    "hypersoft",
+    "supersoft",
+    "soft",
+    "alternates",
+    "s310",
+    "slick",
+    "dry",
+    "allweather",
+    "medium"
+  ],
+  "Supersoft": [
+    "supersoft",
+    "c2",
+    "hypersoft",
+    "ultrasoft",
+    "soft",
+    "alternates",
+    "s310",
+    "slick",
+    "dry",
+    "allweather",
+    "medium"
+  ],
+  "Soft": [
+    "soft",
+    "c3",
+    "alternates",
+    "s310",
+    "slick",
+    "dry",
+    "allweather",
+    "medium"
+  ],
+  "Medium": [
+    "medium",
+    "c4",
+    "default",
+    "s310",
+    "slick",
+    "dry",
+    "allweather"
+  ],
+  "Hard": [
+    "hard",
+    "c5",
+    "p310",
+    "endur",
+    "primary",
+    "medium",
+    "default",
+    "slick",
+    "dry",
+    "allweather"
+  ],
+  "Intermediate": [
+    "intermediate",
+    "inter",
+    "inters",
+    "wet",
+    "rain",
+    "monsoon",
+    "allweather"
+  ],
+  "Wet": [
+    "wet",
+    "rain",
+    "monsoon",
+    "allweather",
+    "intermediate",
+    "inter",
+    "inters"
+  ],
+  "Monsoon": [
+    "monsoon",
+    "wet",
+    "rain",
+    "allweather",
+    "intermediate",
+    "inter",
+    "inters"
+  ],
+  "No Change": [
+    "no change"
+  ]
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DSPData>
+  <mixerTree mixerDeviceType="2" mixerSN="0011211200940" mixerCount="4" activeFader="0">
+    <mixer0 mixerName="Mic" mixerLockStatus="0" mixerFadersLinked="1" mixerHPLevel="100.0"
+            mixerBroadcastLevel="100.0" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="0" mixerPlaceInOrder="0" mixerSourceCount="0"
+            faderColourBarColour="-131328" bartonKnobType="1" muteMode="42"
+            mixerVolumeRatio="1.0" mixCreateRoutedDeviceCount="0"/>
+    <mixer1 mixerName="Chat" mixerLockStatus="0" mixerFadersLinked="1" mixerHPLevel="50.0"
+            mixerBroadcastLevel="50.0" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="0" mixerPlaceInOrder="1" mixerSourceCount="0"
+            faderColourBarColour="-16713217" bartonKnobType="3" muteMode="42"
+            mixerVolumeRatio="1.0" mixCreateRoutedDeviceCount="0"/>
+    <mixer2 mixerName="Music" mixerLockStatus="0" mixerFadersLinked="1" mixerHPLevel="50.0"
+            mixerBroadcastLevel="50.0" mixerHPMute="0" mixerBroadcastMute="0"
+            mixerChatMute="0" mixerPlaceInOrder="2" mixerSourceCount="0"
+            faderColourBarColour="-4914945" bartonKnobType="4" muteMode="42"
+            mixerVolumeRatio="1.0" mixCreateRoutedDeviceCount="0"/>
+    <mixer3 mixerName="System" mixerLockStatus="0" mixerFadersLinked="1"
+            mixerHPLevel="50.0" mixerBroadcastLevel="50.0" mixerHPMute="0"
+            mixerBroadcastMute="0" mixerChatMute="0" mixerPlaceInOrder="3"
+            mixerSourceCount="0" faderColourBarColour="-16711821" bartonKnobType="7"
+            muteMode="42" mixerVolumeRatio="1.0" mixCreateRoutedDeviceCount="0"/>
+    <listeningDeviceTree topListeningDevice="" bottomListeningDevice="" topListeningDeviceSelected="1"
+                         topListeningDevicevol="0" bottomListeningDeviceVol="0"/>
+    <broadcastOutputTree broadcastOutputDeviceVolume="50" broadcastMixVolume="100" broadcastOutputDeviceName="Audience Mix"/>
+    <routingTableTreePersonalMix routeMic="0" routeMusic="1" routeChat="1" routeGame="1" routeBrowser="1"
+                                 routeSystem="1" routeAux1="1" routeAux2="1" chatMicRoutedTo=""/>
+    <routingTableTreeAudienceMix routeMic="1" routeMusic="1" routeChat="1" routeGame="1" routeBrowser="1"
+                                 routeSystem="1" routeAux1="1" routeAux2="1" chatMicRoutedTo=""/>
+    <routingTableTreeChatMix routeMic="1" routeMusic="0" routeChat="0" routeGame="0" routeBrowser="0"
+                             routeSystem="0" routeAux1="0" routeAux2="0" chatMicRoutedTo=""/>
+    <routingTableTreeVODMix/>
+  </mixerTree>
+  <micTree micEQindex="1" expanderIndex="0" eqGuide="0" outputGuide="1"
+           compressorIndex="0">
+    <LEDTree LEDmode="6" LEDcolour1="25599" LEDcolour2="25599" LEDcolour3="0"
+             LEDspeed="6" LEDbrightness="16" LEDmeterSource="0" LEDmeterSens="1092616192"
+             LEDmuteMode="1" LEDmuteColour="16711680" LEDsuspendMode="1" LEDsuspendBrightness="10"/>
+    <systemTree systemSampleRate="0" systemUSBtoHPMute="0" systemMicToUSBMute="0"
+                systemMicToHPMute="0" systemUSBToHPVol="-1073348608" systemMicToUSBVol="0"
+                systemMicToHPVol="-1043018547" systemHPLink="0" systemVolumeOffset="0"
+                systemADCMicGainLeft="0" systemADCMicGainRight="0" systemMcuBypass="0"
+                systemPGAMicGainLeft="0" systemPGAMicGainRight="10" systemDACGain="0"
+                systemMicPostGain="1086324736" systemHPMode="1" systemHPFXEnable="1"
+                systemSuspendMode="1" systemSuspendTimeout="600"/>
+    <compressorTree0 compressorAttack="1065353216" compressorRelease="1128792064"
+                     compressorThresh="-1043959014" compressorKnee="1077936128" compressorMakeupGain="1077936128"
+                     compressorRatio="1082004603" compressorEnable="1"/>
+    <compressorTree1 compressorAttack="1092616192" compressorRelease="1128792064"
+                     compressorThresh="-1047527424" compressorKnee="1077936128" compressorMakeupGain="1077936128"
+                     compressorRatio="1082130432" compressorEnable="1"/>
+    <micEQTree0>
+      <micEQBand0 micEQtype="4" micEQgain="0" micEQFC="1119092736" micEQq="1060320051"
+                  micEQenable="1"/>
+      <micEQBand1 micEQtype="4" micEQgain="0" micEQFC="1140457472" micEQq="1060320051"
+                  micEQenable="1"/>
+      <micEQBand2 micEQtype="6" micEQgain="0" micEQFC="1157234688" micEQq="1060320051"
+                  micEQenable="1"/>
+      <micEQBand3 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand4 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand5 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand6 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand7 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand8 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+    </micEQTree0>
+    <micEQTree1>
+      <micEQBand0 micEQtype="4" micEQgain="1065353216" micEQFC="1123049448" micEQq="1056964608"
+                  micEQenable="1"/>
+      <micEQBand1 micEQtype="4" micEQgain="-1077936128" micEQFC="1147211851" micEQq="1080033280"
+                  micEQenable="1"/>
+      <micEQBand2 micEQtype="4" micEQgain="1065348717" micEQFC="1165624507" micEQq="1056964608"
+                  micEQenable="1"/>
+      <micEQBand3 micEQtype="4" micEQgain="-1073741824" micEQFC="1140129792" micEQq="1078774989"
+                  micEQenable="1"/>
+      <micEQBand4 micEQtype="4" micEQgain="-1077571408" micEQFC="1159477619" micEQq="1069547520"
+                  micEQenable="1"/>
+      <micEQBand5 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand6 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand7 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+      <micEQBand8 micEQtype="0" micEQgain="0" micEQFC="1148846080" micEQq="1060320051"
+                  micEQenable="0"/>
+    </micEQTree1>
+    <inputTree inputGain="15" inputRelease="1025270368"/>
+    <noiseReductionTree noiseReductionEnable="1" noiseReductionMethod="0" noiseReductionAmount="1119092736"
+                        noiseReductionAmountOff="1101004800" noiseReductionAdaptMethod="1"
+                        noiseReductionVuvThreshold="-1030750208" noiseReductionVuvSlowAdaptTime="1157234688"
+                        noiseReductionVuvFastAdaptTime="1140457472" noiseReductionNoiseAdaptTime="1148846080"
+                        noiseReductionGainAdaptTime="1120403456"/>
+    <expanderTree0 expanderAttack="1065353216" expanderRelease="1128792064" expanderThreshold="-1035514790"
+                   expanderRatio="1076258406" expanderEnable="1" expanderFilterQ="1060320051"
+                   expanderFilterFreq="1145569280" expanderBumpReject="1"/>
+    <expanderTree1 expanderAttack="1092616192" expanderRelease="1128792064" expanderThreshold="-1035377778"
+                   expanderRatio="1073741824" expanderEnable="1" expanderFilterQ="1060320051"
+                   expanderFilterFreq="1145569280" expanderBumpReject="1"/>
+    <exciterTree exciterDrive="1103626240" exciterAmount="1092616192" exciterFreq="1166843904"
+                 exciterEnable="1"/>
+    <micbeacnBottomTree beacnBottomAttack="1092616192" beacnBottomRelease="1132068864"
+                        beacnBottomThreshold="-1041235968" beacnBottomKnee="1077936128"
+                        beacnBottomMakeupGain="0" beacnBottomRatio="1090519040" beacnBottomCutoff="1125515264"
+                        beacnBottomQ="1060320051" beacnBottomLowcutCutoff="1106247680"
+                        beacnBottomLowcutQ="1060320051" beacnBottomDrive="1087163597"
+                        beacnBottomMix="1101004800" beacnBottomEnable="1" beacnBottomStyle="1077936128"
+                        beacnBottomAmount="1073741824"/>
+    <HPbeacnBottomTree beacnBottomAttack="1092616192" beacnBottomRelease="1120403456"
+                       beacnBottomThreshold="-1047527424" beacnBottomKnee="1073741824"
+                       beacnBottomMakeupGain="1094713344" beacnBottomRatio="1073741824"
+                       beacnBottomCutoff="1123024896" beacnBottomQ="1065353216" beacnBottomLowcutCutoff="1101004800"
+                       beacnBottomLowcutQ="1045220557" beacnBottomDrive="1103101952"
+                       beacnBottomMix="0" beacnBottomEnable="1" beacnBottomStyle="0"
+                       beacnBottomAmount="0"/>
+    <deEsserTree deEsserAttack="1092616192" deEsserRelease="1112014848" deEsserKnee="1086324736"
+                 deEsserAmount="1101529088" deEsserEnable="1"/>
+    <HPEQTree>
+      <HPEQBandTree0 HPEQtype="5" HPEQgain="0" HPEQfc="1128792064" HPEQq="1060320051"
+                     HPEQenable="1"/>
+      <HPEQBandTree1 HPEQtype="4" HPEQgain="0" HPEQfc="1148846080" HPEQq="1060320051"
+                     HPEQenable="1"/>
+      <HPEQBandTree2 HPEQtype="6" HPEQgain="0" HPEQfc="1167867904" HPEQq="1060320051"
+                     HPEQenable="1"/>
+    </HPEQTree>
+  </micTree>
+</DSPData>
